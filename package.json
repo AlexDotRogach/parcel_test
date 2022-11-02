@@ -7,7 +7,7 @@
   "homepage": "https://alexdotrogach.github.io/parcel_test/",
   "scripts": {
     "start": "parcel --open",
-    "build": "parcel build --no-source-maps --no-cache",
+    "build": "parcel build --no-source-maps --no-cache --public-url /parcel_test/",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
